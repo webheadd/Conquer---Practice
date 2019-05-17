@@ -1,0 +1,207 @@
+@media only screen and (min-width: 972px) and (max-width: 1220px){
+    /* BODY */
+    .wrapper {
+        max-width: 945px;
+    }
+    /* four column */
+    .four-col-content {
+        width: 220px;
+    }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 972px){
+	#nav-ul li {
+        font-size: 18px;
+        margin: 13px 1.5%;
+    }
+    #nav-ul li a {
+        padding: 10px 12px;
+    }
+    /* BODY */
+    .wrapper {
+        max-width: 750px;
+    }
+    /* four column */
+    .four-col-container {
+        flex-wrap: wrap;
+        
+    }
+    .four-col-content {
+        width: 282px;
+        margin: 15px 15% 15px 0;
+    }
+    .four-col-content:nth-child(2), .four-col-content:nth-child(4){
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 676px) and (max-width: 780px){
+	nav {
+        width: 300px;
+        height: 100%;
+        position: fixed;
+        left: -300px;
+        transition: 0.3s all ease-in;
+    }
+    #nav-ul {
+        margin-top: 70px;
+    }
+    #nav-ul li {
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0 0 30px;
+        color: rgb(200, 200, 200);
+        margin: 0 auto;
+        border: none;
+        font-size: 22px;
+    }
+    #nav-ul li a {
+        padding: 0;
+    }
+    #nav-ul li:hover {
+        color: #fff;
+    }
+    #menu-open {
+        display: block;
+        position: fixed;
+    }
+    #nav-ul #menu-close {
+        display: block;
+        width: 45px;
+        height: auto;
+        font-size: 45px;
+        line-height: 40px;
+        padding: 0;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    /* BODY */
+    .wrapper {
+        width: 90%;
+    }
+    /* 3 column */
+    #about-us-grid {
+        display: block;
+    }
+    .about-grid-col {
+        text-align: center;
+        margin: 25px auto !important;
+        border: 1px solid rgb(245, 245, 245);
+    }
+    /* two column */
+    #two-col-grid {
+        display: block;
+    }
+    .grid-col {
+        width: 90%;
+        margin: 25px auto;
+        border: 1px solid rgb(245, 245, 245);
+    }
+    /* four column */
+    .four-col-container {
+        flex-wrap: wrap;
+    }
+    .four-col-content {
+        width: 252px;
+        margin: 15px 15% 15px 0;
+    }
+    .four-col-content:nth-child(2){
+        margin-right: 0 !important;
+    }
+    /* contact form */
+    .contact-content {
+        width: 95%;
+        height: auto;
+    }
+    #forms li {
+        width: 100%;
+        float: none;
+    }
+}
+@media only screen and (max-width: 676px){
+    nav {
+        width: 300px;
+        height: 100%;
+        position: fixed;
+        left: -300px;
+        transition: 0.3s all ease-in;
+    }
+    #nav-ul {
+        margin-top: 70px;
+    }
+    #nav-ul li {
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0 0 30px;
+        color: rgb(200, 200, 200);
+        margin: 0 auto;
+        border: none;
+        font-size: 22px;
+    }
+    #nav-ul li a {
+        padding: 0;
+    }
+    #nav-ul li:hover {
+        color: #fff;
+    }
+    #menu-open {
+        display: block;
+        position: fixed;
+        z-index: 30;
+    }
+    #nav-ul #menu-close {
+        display: block;
+        width: 45px;
+        height: auto;
+        font-size: 45px;
+        line-height: 40px;
+        padding: 0;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    /* BODY */
+    .wrapper {
+        width: 90%;
+    }
+    /* 3 column */
+    #about-us-grid {
+        display: block;
+    }
+    .about-grid-col {
+        text-align: center;
+        margin: 25px auto !important;
+        border: 1px solid rgb(245, 245, 245);
+    }
+    /* two column */
+    #two-col-grid {
+        display: block;
+    }
+    .grid-col {
+        width: 90%;
+        margin: 25px auto;
+        border: 1px solid rgb(245, 245, 245);
+    }
+    /* four column */
+    .four-col-container {
+        display: block;
+    }
+    .four-col-content {
+        width: 320px;
+        margin: 25px auto !important;
+        border: 1px solid rgb(245, 245, 245);
+    }
+    .four-col-content:nth-child(2){
+        margin-right: auto !important;
+    }
+    /* contact form */
+    .contact-content {
+        width: 95%;
+        height: auto;
+    }
+    #forms li {
+        width: 100%;
+        float: none;
+    }
+}
