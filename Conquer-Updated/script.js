@@ -5,18 +5,28 @@ var popMenu = document.getElementsByTagName("nav");
 
 var navBtns = document.querySelectorAll('a[href^="#"]');
 
+var upBtn = document.getElementById("up-btn");
 /* NAVIGATION */
-
-/* click event */
 for(var i = 0; i < navBtns.length; i++){
     navBtns[i].addEventListener('click', function(e) {
         e.preventDefault();
+        
+        //get href value of clicked button/anchor then add smooth scroll effect
         document.querySelector(this.getAttribute("href")).scrollIntoView({
             behavior: "smooth"
         });
     });
 }
 
+// show up button
+window.onscroll = function(){
+    var currentScrollPos = window.pageYOffset;
+    if(currentScrollPos  >= 400){
+        upBtn.style.display = "block";
+    }else {
+        upBtn.style.display = "none";
+    }
+};
 
 /* END OF NAVIGATION */
 
